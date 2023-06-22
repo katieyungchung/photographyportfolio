@@ -2,19 +2,30 @@
 I want the images to take focus/priority.*/
 
 
+/* Logo */
+#logo {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  display: block;
+}
+
 /* This is the CSS for the image slider in the home page */
 .mySlides {
   display: none;
 }
+
 img {
   vertical-align: middle;
 }
+
 .slideshow-container {
   max-width: 1000px;
   position: relative;
   margin: auto;
 }
-/* Next & previous buttons */
+/* Prev and next buttons */
 .prev,
 .next {
   cursor: pointer;
@@ -30,18 +41,18 @@ img {
   border-radius: 0 3px 3px 0;
   user-select: none;
 }
-/* Position the "next button" to the right */
+/* The next button positioning  */
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
-/* On hover, add a black background color with a little bit see-through */
+/* On hover, add white background color that is less opacity */
 .prev:hover,
 .next:hover {
   background-color: rgba(255, 255, 255, 0.45);
 }
 
-/* The dots/bullets/indicators */
+/* Dot indicators for which image */
 .dot {
   cursor: pointer;
   height: 15px;
@@ -57,13 +68,14 @@ img {
   background-color: #111111;
 }
 
-/* */
+/* Animation for fade */
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
   animation-name: fade;
   animation-duration: 1.5s;
 }
+
 @-webkit-keyframes fade {
   from {
     opacity: 0.4;
@@ -72,6 +84,7 @@ img {
     opacity: 1;
   }
 }
+
 @keyframes fade {
   from {
     opacity: 0.4;
@@ -80,11 +93,4 @@ img {
     opacity: 1;
   }
 }
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .prev,
-  .next,
-  .text {
-    font-size: 11px;
-  }
-}
+
