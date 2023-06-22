@@ -13,6 +13,9 @@ Comments
   --font-family-header: "HK Grotesk";
 }
 
+img {
+  width: 50%;
+}
 /* Basic page style resets */
 * {
   box-sizing: border-box;
