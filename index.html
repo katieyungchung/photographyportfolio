@@ -9,10 +9,12 @@
     <!-- CSS Style Sheet-->
     <link rel="stylesheet" href="/style.css" />
 
+    <!-- The website JavaScript file -->
+    <script src="/script.js" defer></script>
+
     <!--This page is essentially the home page-->
   </head>
   <body>
-    
     <nav>
       <a href="./index.html">Home</a>
       <a href="./portfolio.html">Portfolio</a>
@@ -20,64 +22,50 @@
       <a href="./contact.html">Contact</a>
       <a href="./test.html">Test</a>
     </nav>
-  <div>
-    <img
-      src="https://cdn.glitch.global/66b55adb-3b95-4164-94d0-ff56a9e5ede2/Screen%20Shot%202023-06-22%20at%202.45.29%20AM.png?v=1687427138895"
-      class="illustration"
-      alt="Editor illustration"
-      title="Click the image!"
-    /> 
+
+    <div>
+      <img
+        src="https://cdn.glitch.global/66b55adb-3b95-4164-94d0-ff56a9e5ede2/Screen%20Shot%202023-06-22%20at%202.45.29%20AM.png?v=1687427138895"
+        class="illustration"
+        alt="Editor illustration"
+        title="Click the image!"
+      />
     </div>
-    
+
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <img
+          src="https://cdn.glitch.global/66b55adb-3b95-4164-94d0-ff56a9e5ede2/DSC09989-min.jpg?v=1687428576676"
+          style="width: 100%"
+        />
+      </div>
+      <div class="mySlides fade">
+        <img
+          src="https://cdn.glitch.global/66b55adb-3b95-4164-94d0-ff56a9e5ede2/IMG_9968-2-min.jpg?v=1687428568612"
+          style="width: 100%"
+        />
+      </div>
+      <div class="mySlides fade">
+        <img
+          src="https://cdn.glitch.global/66b55adb-3b95-4164-94d0-ff56a9e5ede2/DSC00399-min.jpg?v=1687471654677"
+          style="width: 100%"
+        />
+      </div>
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br />
+    <div style="text-align: center">
+      <span class="dot" onclick="currentSlide(0)"></span>
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+    </div>
+
     <img
       src="https://cdn.glitch.global/66b55adb-3b95-4164-94d0-ff56a9e5ede2/IMG_9968-2-min.jpg?v=1687428568612"
       class="illustration"
       alt="Editor illustration"
       title="Click the image!"
-    /> 
-    
-    <img
-      src="https://cdn.glitch.global/66b55adb-3b95-4164-94d0-ff56a9e5ede2/DSC01982-2-min.jpg?v=1687428571001"
-      class="illustration"
-      alt="Editor illustration"
-      title="Click the image!"
-    /> 
-    
-    <img
-      src="https://cdn.glitch.global/66b55adb-3b95-4164-94d0-ff56a9e5ede2/DSC00599-min.jpg?v=1687428577994"
-      class="illustration"
-      alt="Editor illustration"
-      title="Click the image!"
-    /> 
-    
-    <img
-      src="https://cdn.glitch.global/66b55adb-3b95-4164-94d0-ff56a9e5ede2/DSC00173-2-min.jpg?v=1687428574035"
-      class="illustration"
-      alt="Editor illustration"
-      title="Click the image!"
-    /> 
-    
-    <img
-      src="https://cdn.glitch.global/66b55adb-3b95-4164-94d0-ff56a9e5ede2/DSC01988-min.jpg?v=1687428572553"
-      class="illustration"
-      alt="Editor illustration"
-      title="Click the image!"
-    /> 
-    
-     <img
-      src="https://cdn.glitch.global/66b55adb-3b95-4164-94d0-ff56a9e5ede2/DSC00082-min.jpg?v=1687428579167"
-      class="illustration"
-      alt="Editor illustration"
-      title="Click the image!"
-    /> 
-    
-    
-    <img
-      src="https://cdn.glitch.global/66b55adb-3b95-4164-94d0-ff56a9e5ede2/Screen%20Shot%202023-06-18%20at%201.37.29%20PM.png?v=1687326803839"
-      class="illustration"
-      alt="Editor illustration"
-      title="Click the image!"
     />
-    
   </body>
 </html>
