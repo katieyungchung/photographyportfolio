@@ -15,6 +15,12 @@ Comments
 
 img {
   width: 25%;
+  
+}
+
+div {
+  display: flex;
+  justify-content: center;
 }
 /* Basic page style resets */
 * {
