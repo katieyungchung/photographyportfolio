@@ -1,6 +1,35 @@
 /* This is the style sheet for my website. The style is more clean and minimalistic, because
 I want the images to take focus/priority.*/
 
+/************************ Navigation bar *************************/
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: #F3F3F3;
+}
+
+/*******************************************************************/
+
 
 /* Logo */
 #logo {
