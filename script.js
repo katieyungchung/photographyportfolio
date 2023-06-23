@@ -1,4 +1,7 @@
- let slideIndex = 0;
+/* Javascript for the photo slider */
+
+
+let slideIndex = 0;
       let timeoutId = null;
       const slides = document.getElementsByClassName("mySlides");
       const dots = document.getElementsByClassName("dot");
