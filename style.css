@@ -10,11 +10,18 @@ I want the images to take focus/priority.*/
   --wrapper-height: 87vh;
   --image-max-width: 300px;
   --image-margin: 3rem;
-  --font-family: "HK Grotesk";
-  --font-family-header: "HK Grotesk";
+  --font-family: "Futura";
+  --font-family-header: "Futura";
 }
 
 /* Importing fonts */
+
+@font-face {
+  font-family: Futura;
+  src: url(https://cdn.glitch.global/66b55adb-3b95-4164-94d0-ff56a9e5ede2/Futura%20Book%20font.ttf?v=1687484316525)
+    format("truetype");
+}
+
 @font-face {
   font-family: HK Grotesk;
   src: url("https://cdn.glitch.me/605e2a51-d45f-4d87-a285-9410ad350515%2FHKGrotesk-Regular.otf?v=1603136326027")
@@ -27,9 +34,20 @@ I want the images to take focus/priority.*/
     format("opentype");
 }
 
+p {
+  font-family: "Futura";
+}
+
+h1 {
+  font-family: "Futura";
+}
+
+
+
 /************************ Navigation bar *************************/
 
 ul {
+  font-family: "Futura";
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -51,11 +69,10 @@ li a {
 
 /* Change the link color on hover */
 li a:hover {
-  background-color: #F3F3F3;
+  background-color: #f3f3f3;
 }
 
 /*******************************************************************/
-
 
 /* Logo */
 #logo {
@@ -148,4 +165,3 @@ img {
     opacity: 1;
   }
 }
-
