@@ -3,16 +3,6 @@ I want the images to take focus/priority.*/
 
 /************************* Global *****************************/
 
-:root {
-  --color-bg: #ffffff;
-  --color-text-main: #000000;
-  --color-primary: #ffff00;
-  --wrapper-height: 87vh;
-  --image-max-width: 300px;
-  --image-margin: 3rem;
-  --font-family: "Futura";
-  --font-family-header: "Futura";
-}
 
 /* Importing fonts */
 
@@ -87,6 +77,7 @@ li a:hover {
 .mySlides {
   display: none;
 }
+
 
 img {
   vertical-align: middle;
@@ -168,6 +159,7 @@ img {
 
 /********************** Portfolio *******************/
 
+
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -177,8 +169,8 @@ img {
 /* Create four equal columns that sits next to each other */
 
 .column {
-  flex: 25%;
-  max-width: 25%;
+  flex: 20%;
+  max-width: 20%;
   padding: 0 4px;
 }
 
@@ -186,7 +178,7 @@ img {
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
-} */
+} 
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
