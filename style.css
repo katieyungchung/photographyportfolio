@@ -8,9 +8,18 @@ I want the images to take focus/priority.*/
 
 @font-face {
   font-family: Futura;
+  font-weight: italic;
+  src: url(https://cdn.glitch.global/66b55adb-3b95-4164-94d0-ff56a9e5ede2/Futura%20Light%20Italic%20font.ttf?v=1687584097550)
+    format("truetype");
+}
+
+@font-face {
+  font-family: Futura;
   src: url(https://cdn.glitch.global/66b55adb-3b95-4164-94d0-ff56a9e5ede2/Futura%20Book%20font.ttf?v=1687484316525)
     format("truetype");
 }
+
+
 
 @font-face {
   font-family: HK Grotesk;
@@ -373,6 +382,19 @@ button:hover {
 .space {
   padding: 250px;
 }
+
+.loca {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Change the link color on hover */
+.loca li a:hover {
+  background-color: #F1F7FF;
+}
+
+
 
 
 
