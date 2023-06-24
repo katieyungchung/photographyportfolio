@@ -297,12 +297,12 @@ button:hover {
 
 .container {
   position: relative;
-  width: 50%;
+  width: 100%;
 }
 
 .image {
   display: block;
-  width: 60%;
+  width: 100%;
   height: auto;
 }
 
@@ -313,7 +313,7 @@ button:hover {
   left: 0;
   right: 0;
   height: 100%;
-  width: 60%;
+  width: 100%;
   opacity: 0;
   transition: .5s ease;
   background-color: #000000;
@@ -333,4 +333,29 @@ button:hover {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+}
+
+#container1 {
+  float: left;
+  width: 30%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#container2{
+  float: left;
+  width: 30%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#container3 {
+  float: left;
+  width: 30%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#containers {
+  display
 }
