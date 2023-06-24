@@ -295,6 +295,14 @@ button:hover {
   margin-right: 100px;
 }
 
+.text2 {
+  text-align: center;
+}
+
+#pad {
+  padding: 55px;
+}
+
 .container {
   position: relative;
   width: 100%;
@@ -365,6 +373,8 @@ button:hover {
 .space {
   padding: 250px;
 }
+
+
 
 
 
