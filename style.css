@@ -338,7 +338,7 @@ button:hover {
 #container1 {
   float: left;
   width: 30%;
-  margin-left: 10px;
+  margin-left: 50px;
   margin-right: 10px;
 }
 
@@ -357,5 +357,11 @@ button:hover {
 }
 
 #containers {
-  display
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.space {
+  padding: 500px;
 }
