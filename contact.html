@@ -7,56 +7,92 @@
 
     <!-- CSS Style Sheet-->
     <link rel="stylesheet" href="/style.css" />
-    
-     <!-- Icon library -->
+
+    <!-- Icon library -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
 
-
     <title>Katie's Photography Portfolio</title>
   </head>
   <body>
-   
-    
     <ul>
       <li><a href="./index.html">Home</a></li>
       <li><a href="./portfolio.html">Portfolio</a></li>
       <li><a href="./about.html">About</a></li>
       <li><a href="./contact.html">Contact</a></li>
     </ul>
-    
-        <div class="mainimg">
-    <img class="main" src="https://cdn.glitch.global/66b55adb-3b95-4164-94d0-ff56a9e5ede2/Screen%20Shot%202023-06-23%20at%2012.20.16%20AM.png?v=1687504821973"/>
+
+    <div class="mainimg">
+      <img
+        class="main"
+        src="https://cdn.glitch.global/66b55adb-3b95-4164-94d0-ff56a9e5ede2/Screen%20Shot%202023-06-23%20at%2012.20.16%20AM.png?v=1687504821973"
+      />
     </div>
- 
-    
+
     <!-- Font icons -->
-    <a href="https://instagram.com/y.uan0_?igshid=OGQ5ZDc2ODk2ZA==" target="blank" class="fa fa-instagram"></a>
-    <a href="https://www.linkedin.com/in/katie-chung-6a94261b6" target="blank" class="fa fa-linkedin"></a>
-    
-    
-    <h3>Using CSS to style an HTML Form</h3>
+    <div id="social">
+      <div id="instagram">
+    <a
+      href="https://instagram.com/y.uan0_?igshid=OGQ5ZDc2ODk2ZA=="
+      target="blank"
+      class="fa fa-instagram"
+    ></a>
+      </div>
+      <div id="linkedin">
+    <a
+      href="https://www.linkedin.com/in/katie-chung-6a94261b6"
+      target="blank"
+      class="fa fa-linkedin"
+    ></a>
+      </div>
+    </div>
 
-<div id="form">
-  <form action="mailto:katieyenchung@gmail.com" method="post" enctype="text/plain">
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Enter your first name...">
 
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Enter your last name...">
-    
-    <label for="email">Email</label>
-    <input type="text" id="email" name="lastname" placeholder="Enter your email...">
-    
-     <label for="message">Message</label>
-    <input type="text" id="message" name="lastname" placeholder="Enter your message...">
-  
-    <input type="submit" value="Submit">
-  </form>
-</div>
+    <div id="form">
+      <form
+        action="mailto:katieyenchung@gmail.com"
+        method="post"
+        enctype="text/plain"
+      >
+        <label for="fname">First Name</label>
+        <input
+          type="text"
+          id="fname"
+          name="firstname"
+          placeholder="Enter your first name..."
+        />
 
-    
+        <label for="lname">Last Name</label>
+        <input
+          type="text"
+          id="lname"
+          name="lastname"
+          placeholder="Enter your last name..."
+        />
+
+        <label for="email">Email</label>
+        <input
+          type="text"
+          id="email"
+          name="lastname"
+          placeholder="Enter your email..."
+        />
+
+        <label for="message">Message</label>
+        <input
+          type="text"
+          id="message"
+          name="lastname"
+          placeholder="Enter your message..."
+        />
+
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
   </body>
+  <div id="footercontact">
+  </div>
+  <p>Made by Katie Chung / 2023</p>
 </html>

@@ -437,3 +437,22 @@ input[type=submit]:hover {
 form {
   font-family: Futura;
 }
+
+#instagram {
+  padding: 20px;
+}
+
+#linkedin {
+  padding: 20px;
+}
+
+#social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+#footercontact {
+  padding: 150px;
+}
