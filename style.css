@@ -280,3 +280,19 @@ button:hover {
   margin-top: 0px;
 }
 
+/*********************** about page *************************/
+
+#about {
+  width: 25%;
+  float: left;
+  margin: 5px;
+}
+
+#cont {
+  padding: 20px;
+}
+
+#abouttext {
+  text-align: left;
+}
+
